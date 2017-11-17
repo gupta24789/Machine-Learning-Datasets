@@ -57,4 +57,5 @@ fruit_label	fruit_name	fruit_subtype	mass	width	height	color_score
 4	lemon	unknown	116	6.3	7.7	0.72
 4	lemon	unknown	116	5.9	8.1	0.73
 4	lemon	unknown	152	6.5	8.5	0.72
-4	lemon	unknown	118	6.1	8.1	0.70
+4 lemon	unknown	118	6.1	8.1	0.70
+#END OF DATA
