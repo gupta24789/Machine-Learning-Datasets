@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>011 Follow these instructions before starting Lecture 10</title>
+</head>
+<body>
+<div class="asset-container">
+    <div class="asset-container__padding article-view">
+        <div class="w3c-default">
+            <p>Please index the below documents into your Elasticsearch instance before moving on to Lecture 10. You'll have to run each PUT request one at a time. I'll show you later how this process could be much faster using the bulk API, but for now run the below commands to set the stage for Lecture 10. <br></p><p>PUT /courses/classroom/1<br>{<br>    "name": "Accounting 101",<br>    "room": "E3",<br>    "professor": {<br>        "name": "Thomas Baszo",<br>        "department": "finance",<br>        "facutly_type": "part-time",<br>        "email": "baszot@onuni.com"<br>        },<br>    "students_enrolled": 27,<br>    "course_publish_date": "2015-01-19",<br>    "course_description": "Act 101 is a course from the business school on the introduction to accounting that teaches students how to read and compose basic financial statements"<br>}</p>
+
+<p>PUT /courses/classroom/2<br>{<br>    "name": "Marketing 101",<br>    "room": "E4",<br>    "professor": {<br>        "name": "William Smith",<br>        "department": "finance",<br>        "facutly_type": "part-time",<br>        "email": "wills@onuni.com"<br>        },<br>    "students_enrolled": 18,<br>    "course_publish_date": "2015-06-21",<br>    "course_description": "Mkt 101 is a course from the business school on the introduction to marketing that teaches students the fundamentals of market analysis, customer retention and online advertisements"<br>}</p>
+
+<p>PUT /courses/classroom/3<br>{<br>    "name": "Anthropology 230",<br>    "room": "G11",<br>    "professor": {<br>        "name": "Devin Cranford",<br>        "department": "history",<br>        "facutly_type": "full-time",<br>        "email": "devinc@onuni.com"<br>        },<br>    "students_enrolled": 22,<br>    "course_publish_date": "2013-08-27",<br>    "course_description": "Ant 230 is an intermediate course on human societies and cultures and their development. A focus on the Mayans civilization is rooted in this course"<br>}</p>
+
+<p>PUT /courses/classroom/4<br>{<br>    "name": "Computer Science 101",<br>    "room": "C12",<br>    "professor": {<br>        "name": "Gregg Payne",<br>        "department": "engineering",<br>        "facutly_type": "full-time",<br>        "email": "payneg@onuni.com"<br>        },<br>    "students_enrolled": 33,<br>    "course_publish_date": "2013-08-27",<br>    "course_description": "CS 101 is a first year computer science introduction teaching fundamental data structures and alogirthms using python. "<br>}</p>
+
+
+
+<p>PUT /courses/classroom/5<br>{<br>    "name": "Theatre 410",<br>    "room": "T18",<br>    "professor": {<br>        "name": "Sebastian Hern",<br>        "department": "art",<br>        "facutly_type": "part-time",<br>        "email": ""<br>        },<br>    "students_enrolled": 47,<br>    "course_publish_date": "2013-01-27",<br>    "course_description": "Tht 410 is an advanced elective course disecting the various plays written by shakespere during the 16th century"<br>}</p>
+
+
+
+<p>PUT /courses/classroom/6<br>{<br>    "name": "Cost Accounting 400",<br>    "room": "E7",<br>    "professor": {<br>        "name": "Bill Cage",<br>        "department": "accounting",<br>        "facutly_type": "full-time",<br>        "email": "cageb@onuni.com"<br>        },<br>    "students_enrolled": 31,<br>    "course_publish_date": "2014-12-31",<br>    "course_description": "Cst Act 400 is an advanced course from the business school taken by final year accounting majors that covers the subject of business incurred costs and how to record them in financial statements"<br>}</p>
+
+
+
+<p>PUT /courses/classroom/7<br>{<br>    "name": "Computer Internals 250",<br>    "room": "C8",<br>    "professor": {<br>        "name": "Gregg Payne",<br>        "department": "engineering",<br>        "facutly_type": "part-time",<br>        "email": "payneg@onuni.com"<br>        },<br>    "students_enrolled": 33,<br>    "course_publish_date": "2012-08-20",<br>    "course_description": "cpt Int 250 gives students an integrated and rigorous picture of applied computer science, as it comes to play in the construction of a simple yet powerful computer system. "<br>}</p>
+
+<p>PUT /courses/classroom/8<br>{<br>    "name": "Accounting Info Systems 350",<br>    "room": "E3",<br>    "professor": {<br>        "name": "Bill Cage",<br>        "department": "accounting",<br>        "facutly_type": "full-time",<br>        "email": "cageb@onuni.com"<br>        },<br>    "students_enrolled": 19,<br>    "course_publish_date": "2014-05-15",<br>    "course_description": "Act Sys 350 is an advanced course providing students a practical understanding of an accounting system in database technology. Students will use MS Access to build a transaction ledger system"<br>}</p>
+
+<p>PUT /courses/classroom/9<br>{<br>    "name": "Tax Accounting 200",<br>    "room": "E7",<br>    "professor": {<br>        "name": "Thomas Baszo",<br>        "department": "finance",<br>        "facutly_type": "part-time",<br>        "email": "baszot@onuni.com"<br>        },<br>    "students_enrolled": 17,<br>    "course_publish_date": "2016-06-15",<br>    "course_description": "Tax Act 200 is an intermediate course covering various aspects of tax law"<br>}</p>
+
+<p>PUT /courses/classroom/10<br>{<br>    "name": "Capital Markets 350",<br>    "room": "E3",<br>    "professor": {<br>        "name": "Thomas Baszo",<br>        "department": "finance",<br>        "facutly_type": "part-time",<br>        "email": "baszot@onuni.com"<br>        },<br>    "students_enrolled": 13,<br>    "course_publish_date": "2016-01-11",<br>    "course_description": "This is an advanced course teaching crucial topics related to raising capital and bonds, shares and other long-term equity and debt financial instrucments"<br>}</p><p><br></p><p><br></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
